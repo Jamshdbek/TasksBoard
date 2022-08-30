@@ -1,0 +1,97 @@
+.card {
+    width: 40vh;
+    // height: 30vh;
+    border: solid 0.1px rgb(186, 186, 183);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    margin-left: 20px;
+    padding: 0;
+
+    h3 {
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: 500;
+        cursor: text;
+        user-select: none;
+        max-width: 160px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(92, 94, 97);
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .glyphicon {
+        color: rgb(66, 133, 244);
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .text_add {
+        gap: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        padding-top: 10px;
+        color: rgb(89, 94, 99);
+        padding-top: 30px;
+        padding: 10px;
+
+
+    }
+
+    .button_on {
+        float: right;
+        padding: 10px;
+        position: absolute;
+        margin-left: 90%;
+    }
+
+    .button_smile {
+        float: right;
+        width: 20px;
+        font-size: 17px;
+    }
+}
+
+.smileList {
+    width: 100%;
+    font-size: 20px;
+    padding: 8px;
+}
+
+.material-icons {
+    font-size: 19px;
+    padding-right: 10px;
+
+}
+
+.smileList:hover {
+
+    box-shadow: 0.1px 0.1px 5px 1px rgb(206, 203, 203);
+}
+
+.inputSmileList {
+    width: 35vh;
+    height: 40px;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-left: 20px;
+    border-top: solid 1px rgb(227, 227, 214);
+    border-bottom: solid 0.2px rgb(227, 227, 214);
+    border-left: none;
+    border-right: none;
+
+}
+
+.edit_input_main {
+    border: none;
+    border-radius: 20px;
+    margin-left: 4px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(89, 94, 99);
+
+}
